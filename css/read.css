@@ -1,0 +1,52 @@
+@font-face{
+    font-family: yekan;
+    src: url(../font/iranyekanwebmedium.2d4f96e5.woff);
+}
+div.read{
+    width: 1300px;
+    height: 70px;
+    margin: 5px auto;
+    position: relative;
+}
+div.read>span:nth-child(1){
+    font-family: yekan;
+    font-size: 15px;
+    top: 10px;
+    right: 10px;
+    position: absolute;
+}
+div.read>span:nth-child(2){
+    font-family: yekan;
+    font-size: 13px;
+    top: 10px;
+    left: 0;
+    color: aqua;
+    position: absolute;
+}
+div.bread{
+    text-align: center;
+}
+div.bread>div{
+    display: inline-block;
+    width: 320px;
+    height: 280px;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #efefef;
+}
+div.bread>div>img{
+    width: auto;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+div.bread>div>span{
+    font-family: yekan;
+    font-size: 14px;
+    position: absolute;
+    top: 210px;
+    left: 10px;
+    line-height: 20px;
+    
+}

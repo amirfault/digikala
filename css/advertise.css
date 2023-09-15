@@ -1,0 +1,17 @@
+div.advertise{
+    width: 100%;
+    height: 240px;
+    margin-top: 30px;
+    text-align: center;
+}
+div.advertise>a>div{
+    width: auto;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 25px;
+}
+div.advertise>a>div>img{
+    width: 320px;
+    height: 235px;
+    border-radius: 25px;
+}

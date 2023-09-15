@@ -1,0 +1,12 @@
+div.takhfifbanner{
+    width: 1300px;
+    height: 160px;
+    margin: 25px auto;
+    border-radius: 25px;
+    cursor: pointer;
+}
+div.takhfifbanner > img{
+    width: auto;
+    height: inherit;
+    border-radius: 25px;
+}

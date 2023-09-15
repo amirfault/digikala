@@ -1,0 +1,116 @@
+@font-face{
+    font-family: yekan;
+    src: url(../font/iranyekanwebmedium.2d4f96e5.woff);
+}
+div.amazing{
+    width: 100%;
+    height: 350px;
+    box-sizing: border-box;
+}
+div.amazing>.slider{
+    width: 1300px;
+    padding: 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #EF3A50;
+    border-radius: 25px;
+    overflow: hidden;
+    border-left: 5px solid #EF3A50;
+    cursor:pointer;
+    border-right:5px solid #EF3A50 ;
+}
+div.ttop{
+    width: 180px;
+    height: 150px;
+    margin-top: 10px;
+    object-fit: contain;
+}
+div.bbottom{
+    width: 180px;
+    height: 40px;
+    margin-top: 20px;
+    position: relative;
+
+}
+div.bbottom>.off{
+    width: 70px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+
+}
+div.bbottom>.cost{
+    width: 110px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+}
+div.bbottom>.off>span{
+    font-family: yekan;
+    font-size: 12px;
+    position: absolute;
+    top: 13px;
+    left: 10px;
+    border-radius:25px;
+    padding: 0 5px;
+    background-color: #EF3A50;
+    color: whitesmoke;
+    
+}
+div.bbottom>.cost>span{
+    font-family: yekan;
+    font-size: 12px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+div.before>span{
+    color: grey;
+    font-family: yekan;
+    font-size: 12px;
+    text-decoration-line: line-through;
+}
+div.swiper-slide>a>i{
+    vertical-align: middle;
+    margin-top: 120px;
+    font-size: 70px;
+}
+div.swiper-slide>h6{
+    font-family: yekan;
+    font-size: 16px;
+    color: grey;
+    margin-top: 50px;
+}
+div.amazing>.slider>div.swiper-wrapper>div.swiper-slide:nth-child(1){
+    background-color: #EF3A50;
+    position: relative;
+}
+div.amazing>.slider>div.swiper-wrapper>div.swiper-slide:nth-child(1)>div{
+    background-color: #EF3A50;
+    width: 90px;
+    height: 100px;
+    position: absolute;
+    right: 46px; 
+}
+div.amazing>.slider>div.swiper-wrapper>div.swiper-slide:nth-child(1)>div>img{
+    height: 75px;
+    margin-top: 20px;
+}
+div.amazing>.slider>div.swiper-wrapper>div.swiper-slide:nth-child(1)>span{
+    font-family: yekan;
+    color: whitesmoke;
+    font-size: 15px;
+    position: absolute;
+    bottom: 20px;
+    left: 70px;
+}
+div.amazing>.slider>div.swiper-wrapper>div.swiper-slide:nth-child(2){
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    overflow: hidden;
+}
+div.amazing>.slider>div.swiper-wrapper>div.swiper-slide:nth-child(9){
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    overflow: hidden;
+}

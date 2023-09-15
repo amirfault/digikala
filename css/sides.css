@@ -1,0 +1,32 @@
+@font-face{
+    font-family: yekan;
+    src: url(../font/iranyekanwebmedium.2d4f96e5.woff);
+}
+div.sstory{
+    width: 100%;
+    height: 145px;
+    text-align: center;
+}
+div.sstory>div{
+    display: inline-block;
+    margin-right:50px ;
+    width: auto;
+    line-height: 20px;
+    margin-top: 42.5px;
+    margin-left: 50px;
+
+}
+div.sstory>div>a{
+    text-decoration: none;
+    color: black;
+}
+div.sstory>div>a>img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+div.sstory>div>a>h4{
+    font-family: yekan;
+    font-size: 10px;
+    font-style: normal;
+}

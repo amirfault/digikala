@@ -1,0 +1,86 @@
+@font-face{
+    font-family: yekan;
+    src: url(../font/iranyekanwebmedium.2d4f96e5.woff);
+}
+div.req{
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    margin-top: 30px;
+}
+div.req>span{
+    height: 20px;
+    font-family: yekan;
+    font-size: 25px;
+}
+div.req>div.treq{
+    width: 1305px;
+    height: 225px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+div.req>div.treq>div:nth-child(1){
+    border-top-right-radius: 25px;
+}
+div.req>div.treq>div:nth-child(7){
+    border-top-left-radius: 25px;
+}
+div.req>div.treq>div{
+    width: 180px;
+    height: 160px;
+    border: 1px solid #EFEFEF;
+    display: inline-block;
+    margin-right: -4px;
+}
+div.req>div.treq>div>a>img{
+    width: 90px;
+    height: 90px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+div.req>div.treq>div>a>h4{
+    font-family: yekan;
+    font-size: 12px;
+    font-style: normal;
+    margin-top: 6px;
+}
+div.req>div.treq>div>a{
+    text-decoration: none;
+    color: black;
+}
+div.req>div.breq{
+    width: 1305px;
+    height: 225px;
+    text-align: center;
+    margin: -65px auto;
+}
+div.req>div.breq>div:nth-child(1){
+    border-bottom-right-radius: 25px;
+}
+div.req>div.breq>div:nth-child(7){
+    border-bottom-left-radius: 25px;
+}
+div.req>div.breq>div{
+    width: 180px;
+    height: 160px;
+    border: 1px solid #EFEFEF;
+    display: inline-block;
+    margin-right: -4px;
+}
+div.req>div.breq>div>a>img{
+    width: 90px;
+    height: 90px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+div.req>div.breq>div>a>h4{
+    font-family: yekan;
+    font-size: 12px;
+    font-style: normal;
+    margin-top: 6px;
+}
+div.req>div.breq>div>a{
+    text-decoration: none;
+    color: black;
+}

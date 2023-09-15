@@ -1,0 +1,75 @@
+@font-face{
+    font-family: yekan;
+    src: url(../font/iranyekanwebmedium.2d4f96e5.woff);
+}
+div.view{
+    width: 1300px;
+    height: 420px;
+    margin: 0 auto;
+    margin-top: 30px;
+    cursor: pointer;
+}
+div.view>div{
+    display: inline-block;
+    width: 325px;
+    height: inherit;
+    border: 1px solid #EFEFEF;
+    margin-right: -5px;
+    position: relative;
+}
+div.view>div>h4{
+    font-family: yekan;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+div.view>div>h5{
+    font-family: yekan;
+    margin-right: 10px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    color: gray;
+}
+div.view>div>div>div.firstp{
+    border-left: 1px solid #EFEFEF;
+}
+div.view>div>div>div.secondp{
+    border-top: 1px solid #EFEFEF;
+}
+div.view>div>div>div.thirdp{
+    border-top: 1px solid #EFEFEF;
+}
+div.view>div>div{
+    display: inline-block;
+    width: 325px;
+    height: 160px;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+div.view>div>div>div{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin-top: 5px;
+    margin-right: -3px;
+}
+div.view>div>div>div>img{
+    width: 130px;
+    height: 130px;
+}
+div.view>div:nth-child(1){
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+div.view>div:nth-child(4){
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+div.view>div>span{
+    font-family: yekan;
+    position: absolute;
+    margin-top: 10px;
+    right: 40%;
+    font-size: 12px;
+    color: lightskyblue;
+
+}

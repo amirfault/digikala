@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family: yekan;
+    src: url(../font/iranyekanwebmedium.2d4f96e5.woff);
+}
+div.form{
+    width: 400px;
+    height: 440px;
+    margin: 140px auto;
+    border: 1px solid #c8c8e7;
+    border-radius: 7px;
+    text-align: center;
+}
+div.form>div.logo>img{
+    margin: 30px auto;
+    width: 150px;
+    height: 35px;
+}
+div.form>div.logo>img:hover{
+   cursor: pointer;
+}
+div.form>div.login>h1{
+    font-family: yekan;
+    font-size: 20px;
+    text-transform: none;
+    margin-left: 220px;
+}
+div.form>form.phone>label.salam{
+    display: block;
+    font-family: yekan;
+    margin-left: 320px;
+    margin-top: 20px;
+    font-size: 11px;
+    color: F1F2F4;
+        color: gray;
+}
+div.form>form.phone>label.second{
+    display: block;
+    margin-top: 10px;
+    margin-left: 150px;
+    font-family: yekan;
+    font-size: 11px;
+    color: gray;
+}
+div.form>form.phone>input{
+    display: block;
+    width: 330px;
+    height: 50px;
+    border-radius: 7px;
+    outline: none;
+    margin: 25px auto ;
+    border: 2px solid lightskyblue;
+    padding-right: 15px;
+}
+div.form>form.phone>input[type='submit']{
+    margin-top: 60px; 
+    background-color: #EF4056;
+    font-family: yekan;
+    color: whitesmoke;
+    outline: none;
+    border: none;
+}
+div.form>form.phone>input[type='submit']:hover{
+    cursor: pointer;
+}
+div.form>div.rule>p{
+    font-family: yekan;
+    font-size: 11px;
+
+}
+div.form>div.rule>p>a{
+    text-decoration: none;
+    color: rgb(78, 188, 232);
+}

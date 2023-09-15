@@ -1,0 +1,88 @@
+@font-face{
+    font-family: yekan;
+    src: url(../font/iranyekanwebmedium.2d4f96e5.woff);
+}
+div.market{
+    width: 1300px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top:-30px ;
+    border-radius: 25px;
+    background-color: #EDF0EF;
+    cursor:pointer;
+}
+div.market>div.rmarket{
+    width: 570px;
+    height: inherit;
+    display: inline-block;
+    border-radius: 25px;
+    position: relative;
+}
+div.market>div.rmarket>img:nth-child(1){
+    margin-right: 20px;
+    margin-top: 15px;
+}
+div.market>div.rmarket>img:nth-child(2){
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+div.market>div.rmarket>span{
+    font-family: yekan;
+    margin-right: 25px;
+    background-color: #39AE00;
+    color: whitesmoke;
+    position: absolute;
+    top: 40px;
+    padding: 5px;
+    border-radius: 25px;
+}
+div.market>div.lmarket{
+    width:730px;
+    height: inherit;
+    display: inline-block;
+    border-radius: 25px;
+    margin-left: -4px;
+    position: relative;
+}
+div.market>div.lmarket>div{
+    display: inline-block;
+    width: auto;
+    position: relative;
+}
+div.market>div.lmarket>div>img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+div.market>div.lmarket>div>span{
+    font-family: yekan;
+    font-size: 10px;
+    border-radius:25px;
+    padding: 2px 4px;
+    background-color: crimson;
+    color: whitesmoke;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: -5px;
+    right: 10px;
+}
+div.market>div.lmarket>span{
+    font-family: yekan;
+    color: #39AE00;
+    background-color: white;
+    margin-right: 30px;
+    padding:10px 20px;
+    border-radius: 25px;
+    position: absolute;
+    top: 42px;
+}
+div.market>div.lmarket>span>i{
+    margin-right: 10px;
+    margin-top: 5px;
+
+}
+
+
